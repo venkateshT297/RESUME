@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .profile {
+      text-align: center;
+    }
+    
+    .profile img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+    
+    .section:hover {
+      background-color: #7e4ba9;
+    }
+    
+    .section h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    
+    .section p {
+      margin-bottom: 5px;
+    }
+    
+    .section .details {
+      display: none;
+    }
+    
+    .section.active .details {
+      display: block;
+    }
+    
+    .section.active h2 {
+      color: #58ab74;
+    }
+    
+    .section .timeline {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .section .timeline li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .section .timeline li:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 10px;
+      height: 10px;
+      background-color: #00adb5;
+      border-radius: 50%;
+    }
+    
+    .section .timeline .date {
+      font-size: 14px;
+      color: #999;
+    }
+    
+    .section .timeline .content {
+      margin-left: 15px;
+    }
+    
+    .section .description {
+      margin-top: 5px;
+      font-style: italic;
+      color: #ccc;
+    }
+    
+    .section .skills ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .section .skills li {
+      background-color: #222;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .section .contact {
+      font-size: 16px;
+      border-radius: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>RESUME</h1>
+    <div class="profile">
+      <img src="venkypic.jpeg" alt="Profile Picture">
+      <h2>VENKATESH T</h2>
+    </div>
+    
+    <div class="section" id="summary">
+      <h2>SUMMARY</h2>
+      <div class="details">
+        <p>To grow with an organization that provides me an opportunity to utilize knowledge to implement process and enhance the quality of service which boosts the organization’s goodwill and sustain the competition from other organizations and self-development.</p>
+      </div>
+    </div>
+    
+    <div class="section" id="experience">
+      <h2>INTERNSHIP</h2>
+      <div class="details">
+        <ul class="timeline">
+          <li>
+            <div class="date">2020</div>
+            <div class="content">
+              <h3>Elite Techno Group organization on the Design & Development of Gasoline/Electric cars.</h3>
+              
+              <p class="description">Worked in the Elite Techno Group organization on the Design & Development of Gasoline/Electric cars.
+                Duration: 1 ½ weeks. (date: 28th January 2020 – 04th February2020).</p>
+            </div>
+            <div class="details">
+                <ul class="timeline">
+                  <li>
+                    <div class="date">2023</div>
+                    <div class="content">
+                      <h3>•	Uttara Infosolutions.</h3>
+                      
+                      <p class="description">Responsible for training our aspirants to get exposed to enhanced learning in Java, J2EE, Android, ERP, Data Structures & Algorithms.</p>
+                    </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="section" id="skills">
+      <h2>SKILLS</h2>
+      <div class="details">
+        <ul class="skills">
+          <li>JAVA</li>
+          <li>JAVASCRIPT</li>
+          <li>HTML</li>
+          <li>SQL</li>
+          <li>REACT</li>
+          <li>AUTOCAD</li>
+          <li>SOLID WORKS</li>
+          <li>MS WORD</li>
+          <li>POWER POINT</li>
+          <li>MS EXCEL</li>
+          <li>ECLIPSE</li>
+          <li>VS CODE</li>
+          <li>MYSQL</li>
+          <li>WINDOWS</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="section" id="education">
+      <h2>EDUCATION</h2>
+      <div class="details">
+        <ul class="timeline">
+          <li>
+            <div class="date">2022</div>
+            <div class="content">
+              <h3>Bachelor of Engineering</h3>
+              <p>Presidency University,Bangalore</p>
+              <p>CGPA: 6.63</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2018</div>
+            <div class="content">
+              <h3>PUC</h3>
+              <p>Narayana PU College, Bengaluru</p>
+              <p>PERCENTAGE: 54.16</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">2016</div>
+            <div class="content">
+              <h3>10th CLASS</h3>
+              <p>Mahesh Memorial Kendriya Vidyashala Bangalore</p>
+              <p>CGPA: 7.80</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="section" id="projects">
+      <h2>PROJECTS</h2>
+      <div class="details">
+        <ul class="timeline">
+          <li> 
+            <div class="content">
+              <h3>Self-Balancing Bicycle</h3>
+              <p class="description">Project completed on Self-Balancing Bicycle, as a part of academic project.
+                Duration: 3 Months ( 3rd March 2022 – 3rd June 2022).</p>
+            </div>
+          </li>
+          <li> 
+            <div class="content">
+              <h3>YOUTUBE CLONE</h3>
+              <p class="description"> Project completed on Youtube Clone, Using React Js. 
+                Duration: 2 Weeks ( 25th June 2023 – 04th July 2023).</p>
+            </div>
+          </li>
+          <li> 
+            <div class="content">
+              <h3>RESUME</h3>
+              <p class="description"> Project completed on Resume, Using HTML and CSS. 
+                Duration: 1 Weeks ( 5th June 2023 – 11th July 2023).</p>
+            </div>
+          </li>
+          <li> 
+            <div class="content">
+              <h3>WEATHER APP</h3>
+              <p class="description"> Project completed on Weather App , Using React JS. 
+                Duration: 1 Weeks ( 15th June 2023 – 21th July 2023).</p>
+            </div>
+          </li>
+          <li>  
+            <div class="content">
+                        <h3>Task Management Application</h3>
+                        <p class="description">Developed a web-based task management application using Java. The application allows users to create, assign, and track tasks within a team or organization.</p>
+                        <p class="description">Key features of the project include:</p>
+                        <ul>
+                          <li>Ability to create and assign tasks to team members, set due dates, and track task progress.</li>
+                          <li>Duration: 1 Weeks(23rd May 2023-30th July 2023).</li>
+                          
+                        </ul>
+                        
+                      </div>
+                    
+                  
+                      
+                    </ul>
+                    
+                </div>
+              </div>
+             
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+              
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h1 class="contact">CONTACT</h2>
+      <div class="details">
+        <p>Phone: 9148298157</p>
+        <p>Phone: 6363134315</p>
+        <p>Email: venkythirupathi29700@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code for interactivity
+    const sections = document.querySelectorAll('.section');
+
+    sections.forEach(section => {
+      section.addEventListener('click', () => {
+        section.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
